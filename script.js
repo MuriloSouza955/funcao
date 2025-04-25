@@ -1,5 +1,13 @@
 /*
-O que são funções?
-Nesta aula, expliquei o conceito de funções, que são blocos de código para realizar tarefas específicas. As funções podem ser chamadas, executadas e invocadas várias vezes. Elas ajudam a organizar o código, tornando-o mais compreensível e reutilizável. Cada função tem uma responsabilidade, facilitando a compreensão do código. As funções são como botões em um controle, cada um com uma função específica. Elas permitem reutilizar o código e separar as responsabilidades.
+Primeira função
+Neste vídeo, é ensinado como criar uma função em programação. A declaração da função é feita com a palavra "function" seguida do nome desejado. O escopo da função é delimitado por chaves e tudo dentro delas é o que a função executará. Após definir a mensagem desejada, a função é chamada pelo nome seguido de parênteses. A função pode ser chamada várias vezes sem a necessidade de recriá-la, reaproveitando seu conteúdo.
 
 */
+
+function message(){
+    console.log("Olá, é bom ter voce aqui!");
+}
+
+message();
+message();
+message();
